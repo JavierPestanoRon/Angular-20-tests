@@ -1,0 +1,33 @@
+.pets {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 2rem;
+
+  &__of-the-day {
+    width: 200px;
+    max-height: 460px;
+    flex-shrink: 0;
+  }
+
+  &__list {
+    width: 950px;
+    overflow-x: auto;
+  }
+  
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    &__of-the-day,
+    &__list {
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    &__of-the-day {
+      max-height: none;
+    }
+  }
+}

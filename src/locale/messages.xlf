@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="1507922338893515129" datatype="html">
+        <source>Pet Details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pet-details/pet-details.html</context>
+          <context context-type="linenumber">1,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7663126911144045905" datatype="html">
+        <source>Kind:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pet-details/pet-details.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="837048690691995426" datatype="html">
+        <source>Weight:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pet-details/pet-details.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5158337882915972503" datatype="html">
+        <source>Height:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pet-details/pet-details.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7115285952699064699" datatype="html">
+        <source>Length:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pet-details/pet-details.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pet-details/pet-details.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2097644462847725984" datatype="html">
+        <source>Health:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pet-details/pet-details.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1442851505421720930" datatype="html">
+        <source>Number of lives:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pet-details/pet-details.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8527367922633786537" datatype="html">
+        <source>No pet data available.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pet-details/pet-details.html</context>
+          <context context-type="linenumber">34,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2339657535424168226" datatype="html">
+        <source> Back to Pets </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pet-details/pet-details.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1063090268751913359" datatype="html">
+        <source> Photo </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pets/components/pet-list/pet-list.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8778616811237742446" datatype="html">
+        <source> Name </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pets/components/pet-list/pet-list.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6750960770194343214" datatype="html">
+        <source> Kind </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pets/components/pet-list/pet-list.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2458676640600959103" datatype="html">
+        <source> Weight </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pets/components/pet-list/pet-list.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1525857326426458760" datatype="html">
+        <source> Height </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pets/components/pet-list/pet-list.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6497957689714058207" datatype="html">
+        <source> Length </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pets/components/pet-list/pet-list.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6766771080956126685" datatype="html">
+        <source>Pet of the Day</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pets/components/pet-of-the-day/pet-of-the-day.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7296315142971310329" datatype="html">
+        <source>Reveal it!!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pets/components/pet-of-the-day/pet-of-the-day.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1924346591461694285" datatype="html">
+        <source>DETAILS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pets/components/pet-of-the-day/pet-of-the-day.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

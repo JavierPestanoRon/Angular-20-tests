@@ -1,0 +1,45 @@
+.pet-of-the-day {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+
+  &__title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__reveal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__card {
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  &__avatar {
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+
+  &__image {
+    object-fit: cover;
+    max-height: 300px;
+  }
+
+  &__content {
+    font-size: 0.95rem;
+    color: #444;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 1rem;
+  }
+}

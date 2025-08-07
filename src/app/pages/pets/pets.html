@@ -1,0 +1,9 @@
+<div class="pets">
+  <div class="pets__of-the-day">
+    <app-pet-of-the-day [pet]="(petOfTheDay$ | async) || null"></app-pet-of-the-day>
+  </div>
+
+  <div class="pets__list">
+    <app-pet-list [pets]="(pets$ | async) || []"></app-pet-list>
+  </div>
+</div>

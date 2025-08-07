@@ -1,0 +1,42 @@
+<h2 i18n class="pet-details__title">Pet Details</h2>
+
+<mat-card class="pet-details__card">
+  @if (pet) {
+    <div class="pet-details__content">
+      <div class="pet-details__image">
+        <img
+          appFallBackImage
+          [src]="pet.photo_url"
+          alt="{{ pet.name }}"
+          class="pet-details__img"
+        />
+      </div>
+
+      <div class="pet-details__info">
+        <h3 class="pet-details__name">{{ pet.name }}</h3>
+
+        <ul class="pet-details__list">
+          <li><strong i18n>Kind:</strong> {{ pet.kind }}</li>
+          <li><strong i18n>Weight:</strong> {{ pet.weight | gramsToKg}}</li>
+          <li><strong i18n>Height:</strong> {{ pet.height }} cm</li>
+          <li><strong i18n>Length:</strong> {{ pet.length }} cm</li>
+          <li><strong i18n>Length:</strong> {{ pet.length }} cm</li>
+          <li><strong i18n>Health:</strong> {{ pet['health'] }}</li>
+          <li *ngIf="pet.kind === 'cat'">
+            <strong i18n>Number of lives:</strong> {{ pet.number_of_lives }}
+          </li>
+        </ul>
+
+        <p class="pet-details__description">{{ pet.description }}</p>
+      </div>
+    </div>
+  } @else {
+    <p i18n class="pet-details__empty">No pet data available.</p>
+  }
+</mat-card>
+
+<div class="pet-details__actions">
+  <button i18n mat-stroked-button color="primary" (click)="goBack()">
+    Back to Pets
+  </button>
+</div>
