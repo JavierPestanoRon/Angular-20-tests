@@ -14,3 +14,4 @@
 * Migrate Karma to Jest and add tests to husky
 * Try to automate the storybook story files creation on ng component creation and use IA to generate the story before push commit
 * Test the new LLMs [Angular LLMs](https://angular.dev/ai/develop-with-ai)
+* Test version update automation

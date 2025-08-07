@@ -24,6 +24,9 @@ export default class Pets implements OnInit {
       shareReplay(1)
     );
 
+    // With signals
+    // pets = toSignal(this.petService.getAllPets());
+
     this.petOfTheDay$ = this.pets$.pipe(
       map(pets => {
         const today = new Date().getDate();
